@@ -1,0 +1,52 @@
+/* All custom codes with comment */
+
+#section-home1{
+/*    padding: 10% 0;*/
+    height: 100vh;
+}
+#section-home1 .container{
+    overflow: hidden;
+}
+.road-bg{
+    background: #252525;
+}
+#section-home1 .car-left{
+    float: left; 
+    padding: 7% 0;
+}
+
+#section-home1 .car-right{
+    float: right;    
+    padding: 7% 0;
+    transform: rotateY(-180deg);
+}
+.border-top{
+    border-top: 7px dashed #fff;
+}
+.car-left{
+    position: relative;
+    animation: car-left 5s linear infinite;
+}
+
+.car-right{
+    position: relative;
+    animation: car-right 5s linear infinite;
+}
+
+@keyframes car-left{
+     0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@keyframes car-right{
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 100%;
+    }
+}
