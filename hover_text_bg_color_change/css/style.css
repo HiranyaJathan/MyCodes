@@ -1,0 +1,35 @@
+/* All custom codes with comment */
+
+/*********************************
+
+    hover_text_bg_color_change
+
+**********************************/
+
+.section-blue h1, .section-black h1{
+    position: absolute;
+    font-size: 10em;
+    margin: 0;
+}
+
+.section-blue{
+    overflow:hidden;
+    position: relative;
+    top: 0;
+    right:0;
+    height: 100vh;
+    background: #00b9ff;
+    color: #fff;
+    margin: 0px;
+}
+
+.section-black {
+    overflow:hidden;
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100vh;
+    background: #000;
+    color: #00b9ff;   
+    width: 100%;
+   }
