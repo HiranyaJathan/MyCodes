@@ -1,0 +1,32 @@
+/* All custom codes with comment */
+
+
+#section-home1{
+    position: relative;
+    height: 100vh;
+}
+.gallery-box {
+    position: relative;
+    margin-bottom: 5%;
+    cursor: pointer;
+}   
+.gallery-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 8px solid #fff;
+}
+.gallery-box img:nth-child(1){
+    transform: rotate(2deg);
+    position: static;
+}
+.gallery-box img:nth-child(2){
+    transform: rotate(-3deg);
+}
+.gallery-box img:nth-child(3){
+    transform: rotate(4deg);
+}
+.btn-album{
+    float: right;
+    margin-bottom: 5%;
+}
