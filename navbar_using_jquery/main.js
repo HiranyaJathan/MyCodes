@@ -3,8 +3,7 @@
 $(document).ready (function(){
     $('.dropdown').click(function(){
         $('.dropdown-menu').not($(this).find('.dropdown-menu')).hide();
-        $(this).find('.dropdown-menu').toggle(); 
-        
+        $(this).find('.dropdown-menu').toggle();         
     });
     
 });
